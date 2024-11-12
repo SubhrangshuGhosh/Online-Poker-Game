@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    background-color: rgba(13, 54, 16, 0.837);
+    font-weight: bold;
+    color: white;
+    font-family: 'Arial', Arial, sans-serif;
+}
+
+h1 {
+    color: goldenrod;
+}
+
+#message-el {
+    font-style: italic;
+}
+
+button {
+    color: #016F32;
+    width: 150px;
+    background: goldenrod;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 2px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+}
