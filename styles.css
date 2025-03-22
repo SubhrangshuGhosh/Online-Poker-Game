@@ -1,13 +1,19 @@
+
 body {
     text-align: center;
-    background-color: rgba(13, 54, 16, 0.837);
+    background: linear-gradient(6deg, rgb(179, 166, 25), rgba(12, 12, 250, 0.708));
     font-weight: bold;
-    color: white;
+    color: rgb(55, 10, 10);
     font-family: 'Arial', Arial, sans-serif;
+    height: 100vh; 
+    margin: 0;      
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
 }
-
 h1 {
-    color: goldenrod;
+    color: rgb(16, 212, 52);
 }
 
 #message-el {
@@ -15,13 +21,23 @@ h1 {
 }
 
 button {
-    color: #016F32;
+    color: #dfe616;
     width: 150px;
-    background: goldenrod;
+    background:linear-gradient(90deg, rgb(49, 13, 13), rgb(178, 7, 212));
     padding-top: 5px;
     padding-bottom: 5px;
-    margin: 2px;
+    margin: 5px;
     font-weight: bold;
     border: none;
     border-radius: 5px;
+    box-shadow: 4px 4px 6px rgba(12, 206, 200, 0.681);
+}
+button:hover {
+    filter: brightness(0.80); 
+}
+
+button:active {
+    transform: scale(0.92); 
+    box-shadow: 2px 2px 4px rgba(12, 206, 200, 0.5);
+    transition: transform 0.15s ease-out, box-shadow 0.15s ease-out;
 }
